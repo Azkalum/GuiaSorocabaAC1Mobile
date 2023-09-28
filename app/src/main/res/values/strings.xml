@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GuiaSorocabaAC1</string>
+    <string name="iguatemiDescricao">O Iguatemi Esplanada é o maior empreendimento de uso misto do Interior de São Paulo. Com um mix de lojas completo, o empreendimento conta com mais de 400 lojas. Além de importantes marcas do varejo nacional, oferece diversos serviços para facilitar o dia a dia de seus clientes que buscam, cada vez mais, conforto e qualidade.</string>
+    <string name="iguatemi_esplanada">Iguatemi Esplanada</string>
+    <string name="abrir_site">Abrir Site</string>
+    <string name="telefonar">Telefonar</string>
+    <string name="ver_no_mapa">Ver no Mapa</string>
+    <string name="zooDescricao">O Parque Zoológico Municipal Quinzinho de Barros – Zoológico Municipal de Sorocaba é um jardim zoológico situado no município de Sorocaba, estado de São Paulo, no Brasil, sendo considerado o segundo zoológico do Brasil em número de espécies.</string>
+    <string name="zooNome">Parque Municipal Quinzinho de Barros</string>
+    <string name="kasatoNome">Parque Kasato Maru</string>
+    <string name="kasatoDescricao">Inaugurado em 2008, em homenagem ao centenário da imigração japonesa no Brasil, os projetos arquitetônico e paisagístico do Parque Kasato Maru trazem elementos presentes na cultura e religião do Japão. Kasato Maru é o nome do navio que trouxe os primeiros imigrantes para o país.</string>
+    <string name="saibaMais">Saiba Mais</string>
+    <string name="voltar">Voltar</string>
+</resources>
