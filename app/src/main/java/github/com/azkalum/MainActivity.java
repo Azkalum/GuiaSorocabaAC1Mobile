@@ -14,37 +14,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button buttonDetailsIguatemi = findViewById(R.id.saibaMaisButtonIguatemi);
+    }
 
-        buttonDetailsIguatemi.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DetailsActivyIguatemi.class);
-                startActivity(intent);
-            }
-        });
+    public void botaoZoo(View view) {
+        Intent intent = new Intent(this, ZooActivity.class);
+        startActivity(intent);
+    }
 
-        Button buttonDetailsKasato = findViewById(R.id.saibaMaisButtonKasato);
+    public void botaoIguatemi(View view) {
+        Intent intent = new Intent(this, IguatemiActivity.class);
+        startActivity(intent);
+    }
 
-        buttonDetailsKasato.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DetailsActivyKasato.class);
-                startActivity(intent);
-            }
-        });
-
-        Button buttonDetailsZoo = findViewById(R.id.saibaMaisButtonZoo);
-
-        buttonDetailsKasato.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DetailsActivyKasato.class);
-                startActivity(intent);
-            }
-        });
-
-
+    public void botaoKasato(View view) {
+        Intent intent = new Intent(this, KasatoActivity.class);
+        startActivity(intent);
     }
 
 }

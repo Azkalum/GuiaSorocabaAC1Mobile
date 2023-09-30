@@ -36,18 +36,19 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/saibaMaisButtonKasato"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/saibaMais"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/localName"
-            app:layout_constraintVertical_bias="0.0"
-            android:backgroundTint="#699735"/>
+            <Button
+                android:id="@+id/saibaMaisButtonKasato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#699735"
+                android:onClick="botaoKasato"
+                android:text="@string/saibaMais"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/localName"
+                app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
             android:id="@+id/localImage2"
@@ -68,6 +69,7 @@
             android:id="@+id/saibaMaisButtonIguatemi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="botaoIguatemi"
             android:text="@string/saibaMais"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -96,6 +98,7 @@
             android:id="@+id/saibaMaisButtonZoo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="botaoZoo"
             android:text="@string/saibaMais"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
