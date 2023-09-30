@@ -1,64 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/detailImageView"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/zoo" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <ImageView
-        android:id="@+id/detailImageView2"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/zoo2" />
+        <ImageView
+            android:id="@+id/detailImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/zoo" />
 
-    <TextView
-        android:id="@+id/detailNameTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/zooNome"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/detailImageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/zoo2" />
 
-    <TextView
-        android:id="@+id/detailDescriptionTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/zooDescricao"
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/detailNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zooNome"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/verNoMapaButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="openMap"
-        android:text="@string/ver_no_mapa" />
+        <TextView
+            android:id="@+id/detailDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zooDescricao"
+            android:textSize="16sp" />
 
-    <Button
-        android:id="@+id/abrirSiteButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="openSite"
-        android:text="@string/abrir_site" />
+        <Button
+            android:id="@+id/verNoMapaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openMap"
+            android:text="@string/ver_no_mapa" />
 
-    <Button
-        android:id="@+id/telefonarButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="makeCall"
-        android:text="@string/telefonar" />
+        <Button
+            android:id="@+id/abrirSiteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openSite"
+            android:text="@string/abrir_site" />
 
-    <Button
-        android:id="@+id/buttonMenuPrincipal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/voltar" />
-</LinearLayout>
+        <Button
+            android:id="@+id/telefonarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="makeCall"
+            android:text="@string/telefonar" />
+
+        <Button
+            android:id="@+id/buttonMenuPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/voltar" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
